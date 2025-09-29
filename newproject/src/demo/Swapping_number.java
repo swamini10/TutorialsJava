@@ -1,4 +1,5 @@
-package demo;
+
+	package demo;
 
 public class Swapping_number{
  public static void main(String[] args) {
@@ -12,7 +13,7 @@ public class Swapping_number{
 //	   System.out.println("a"+a);
 //	   System.out.println("b"+b);
 	 
-	//swapping without using 3rd variable	 
+//   swapping without using 3rd variable	 
 	 int a=9;
 	 int b=8; 
 	 b=a+b;
