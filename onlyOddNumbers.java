@@ -1,6 +1,6 @@
 public class Demo {
 
-    public static boolean onlyOddNumbers(int... numbers) {
+    public static boolean onlyOddNumbers(int numbers) {
         for (int i : numbers) {
             if (i % 2 == 0)
                 return false;
