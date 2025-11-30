@@ -1,15 +1,21 @@
 package demo;
 
 public class StringContainsVowels {
+	 public static void printFibonacciSequence(int count) {
+		  int a = 0;
+		  int b = 1;
+		  int c = 1;
 
-	 public static void main(String[] args) {
-	  System.out.println(stringContainsVowels("swamini")); // true
-	  System.out.println(stringContainsVowels("TV")); // false
-	 }
+		  for (int i = 1; i <= count; i++) {
+		   System.out.print(a + ", ");
 
-	 public static boolean stringContainsVowels(String input) {
-	  return input.toLowerCase().matches(".*[aeiou].*");
-	 }
+		            a = b;
+		   b = c;
+		   c = a + b;
+		  }
+		 }
 
-	}
+		 public static void main(String[] args) {
+		     printFibonacciSequence(10);
+		 }	}
 
